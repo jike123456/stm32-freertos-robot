@@ -23,7 +23,7 @@
  *  			更新最新 CmdVel + 通知 ControlTask
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
- * @board       Kaoya Robot 下位机
+ * @board       STM32F407 下位机
  *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.

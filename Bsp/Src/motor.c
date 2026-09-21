@@ -41,7 +41,7 @@
  *      获取当前轮速测量值（默认来自仿真；后续可切真实编码器测量）
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
- * @board       Kaoya Robot 下位机
+ * @board       STM32F407 下位机
  *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.

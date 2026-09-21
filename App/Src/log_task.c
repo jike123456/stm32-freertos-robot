@@ -12,7 +12,7 @@
  * - 提供 PANIC 模式：硬故障/栈溢出时可切换为 UART2 轮询直打
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
- * @board       Kaoya Robot 下位机
+ * @board       STM32F407 下位机
  *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.

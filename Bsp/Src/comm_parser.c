@@ -6,7 +6,7 @@
  * @date        2026-02-04
  * @brief       串口通信协议解析器（字节流 -> 帧），状态机解析 + CRC16 校验 + 帧回调
  * @details
- *  本文件实现 Kaoya Robot 下位机与上位机之间的统一串口协议解析（RX 侧）：
+ *  本文件实现 STM32F407 下位机与上位机之间的统一串口协议解析（RX 侧）：
  *   - 输入：任意分片/任意长度的字节流（DMA 环形缓冲 / StreamBuffer / 中断回调等）
  *   - 输出：当完整帧通过 SOF/VER/LEN/EOF/CRC 校验后，触发 on_frame() 回调上抛业务层
  *
@@ -36,7 +36,7 @@
  *   - 上层回调 on_frame() 内按 msg_id 分发到对应业务处理（cmd_vel / 参数下发 / 心跳等） 
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
- * @board       Kaoya Robot 下位机
+ * @board       STM32F407 下位机
  *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.

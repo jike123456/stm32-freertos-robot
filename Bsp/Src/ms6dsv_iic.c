@@ -31,7 +31,7 @@
  *   3) 软件 I2C 非线程安全：请保证同一时刻只有一个上下文访问该接口。
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
- * @board       Kaoya Robot 下位机
+ * @board       STM32F407 下位机
  *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.
