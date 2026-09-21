@@ -58,4 +58,4 @@ KaoYa_Project.ioc                  STM32CubeMX 配置
 
 ## 来源与许可
 
-基于 Kaoya Robot 下位机框架整理，保留原作者及第三方组件的版权和许可声明。详细来源与使用限制见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，不对整库添加新的统一开源许可。
+保留原作者及第三方组件的版权和许可声明。详细来源与使用限制见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)，不对整库添加新的统一开源许可。
