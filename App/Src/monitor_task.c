@@ -14,7 +14,7 @@
  *
  * @platform    STM32F407ZGT6 + FreeRTOS + HAL
  * @board       Kaoya Robot 下位机
- * @店铺链接： https://mall.bilibili.com/neul-next/detailshop/index.html?channel=WEIXIN&curTab=LIVE_REPLAY&loadingShow=1&msource=cps_showcase_384121683&noTitleBar=1&outsideMall=yes&page=detailshop_detail&share_mid=384121683&smallShopMid=384121683#themeType=1 
+ *
  * @copyright
  *              Copyright (c) 2025-2035 Kaoya. All rights reserved.
  ****************************************************************************************************
@@ -328,13 +328,13 @@ void KaoYaApp_MonitorTask(void *argument)
         s_mon_seq++;
 #if LOG_KAOYATEACH_ENABLE
 		LOGKAOYA_T("MON", "以下是ERROR日志");
-		LOGERROR_T("MON", "烤鸭的嵌入式校招项目");		
+		LOGERROR_T("MON", "Monitor log level demo");
 		LOGKAOYA_T("MON", "以下是WARN 日志");
-		LOGWARN_T( "MON", "烤鸭的嵌入式校招项目");
+		LOGWARN_T( "MON", "Monitor log level demo");
 		LOGKAOYA_T("MON", "以下是INFO 日志");
-		LOGINFO_T( "MON", "烤鸭的嵌入式校招项目");		
+		LOGINFO_T( "MON", "Monitor log level demo");
 		LOGKAOYA_T("MON", "以下是DEBUG日志");
-		LOGDEBUG_T("MON", "烤鸭的嵌入式校招项目");
+		LOGDEBUG_T("MON", "Monitor log level demo");
 #endif
     }
 }
